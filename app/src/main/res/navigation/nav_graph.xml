@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/nav_graph"
+            app:startDestination="@id/mainPage">
+    <activity android:id="@+id/mainPage" android:name="com.example.trainingcalculator.MainPage"
+              android:label="activity_main_page" tools:layout="@layout/activity_main_page"/>
+    <fragment android:id="@+id/timePaceDist" android:name="com.example.trainingcalculator.TimePaceDist"
+              android:label="fragment_time_pace_dist" tools:layout="@layout/fragment_time_pace_dist"/>
+    <fragment android:id="@+id/timer" android:name="com.example.trainingcalculator.Timer" android:label="fragment_timer"
+              tools:layout="@layout/fragment_timer"/>
+</navigation>

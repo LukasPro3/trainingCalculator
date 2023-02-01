@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+            android:title="Lap Calculator"
+            android:id="@+id/lapCalc"
+            android:icon="@drawable/ic_track_logo"
+            />
+    <item
+            android:title="TPD Calculator"
+            android:id="@+id/timePaceDist"
+            android:icon="@drawable/ic_calculator_logo"
+            />
+    <item
+            android:title="Timer"
+            android:id="@+id/timer"
+            android:icon="@drawable/ic_timer_logo"
+            />
+</menu>
